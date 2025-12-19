@@ -1,0 +1,22 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "AI Agent Work with MCP Server ",
+  "license": "ISC",
+  "author": "Muhammad Ahmed",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.0",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "ollama": "^0.6.3",
+    "zod": "^4.2.1"
+  }
+}
